@@ -1,0 +1,56 @@
+.section {
+  display: flex;
+  padding-left: 6rem;
+  align-items: center;
+  flex-wrap: wrap;
+  
+}
+
+.title {
+  display: flex;
+  width: 12.75rem;
+  height: 3.8rem;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 4px;
+ 
+}
+
+.title h2 {
+  color: var(--color-white);
+  text-align: center;
+ 
+  /* @title-small */
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  
+}
+
+  p {
+  color: var(--color-white);
+  /* @body-medium */
+  
+  font-size: 1.2rem;
+  font-style: normal;
+  margin-left: .5rem;
+  font-weight: 300;
+  align-items: center;
+}
+
+@media screen and (max-width: 425px) {
+   .section {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  
+  }
+
+  p {
+    align-items: center;
+    display: flex;
+    text-align: center;
+  }
+}
